@@ -1,3 +1,8 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
+
+def initialize(a) #method
+  @a = a
 end
+ def bar(x, arr={})
+    "#{x}#{@a}#{arr[:sat]}"
+ end
